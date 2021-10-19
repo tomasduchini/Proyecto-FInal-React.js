@@ -1,0 +1,45 @@
+.contador{
+    display: inline-flex;
+    margin-left: 2em;
+    gap: 1em;
+}
+.cards{
+    width: 90%;
+    max-width: 1200px;
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 0 0;
+    gap: 2em;
+}
+.cards__content{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.product{
+    width: 20%;
+    display: block;
+}
+.product__content{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
